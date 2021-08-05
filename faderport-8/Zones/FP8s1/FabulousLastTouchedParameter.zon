@@ -1,0 +1,9 @@
+Zone "FabulousLastTouchedParameter"
+  Fader8        FocusedFXParam
+  RotaryBig     FocusedFXParam
+  RotaryBigPush FocusedFXParam [ 0 ]
+  FPDisplayA8   FocusedFXParamValueDisplay
+  FPDisplayB8   FocusedFXParamNameDisplay
+  FPDisplayC8   FixedTextDisplay "Fx"
+  Macro         GoZone           "Home" {  80 80 0 127 127 127 }
+ZoneEnd

@@ -1,0 +1,10 @@
+Zone "Home"
+  IncludedZones
+	"Buttons"
+    "Channel"
+	"PanSelected"
+  IncludedZonesEnd
+ZoneEnd
+
+
+
