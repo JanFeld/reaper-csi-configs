@@ -1,5 +1,9 @@
 # reaper-csi-configs
 
+Reaper CSI Integration files for *Faderport 8* in S1 mode.
+
+Based on the files from *Airon* on Reaper-Stash https://stash.reaper.fm/v/41198/Faderport8StudioOne.zip .
+
 
 
 # License
