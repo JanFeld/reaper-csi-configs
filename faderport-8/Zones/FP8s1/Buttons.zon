@@ -54,7 +54,7 @@ Zone "Buttons"
   Alt+Latch    Reaper "40266" { 4 0 4  96 0 96 }
   Alt+Off      Reaper "42024" { 0 0 10 0 32 127 }
 
-  Arm          TrackRecordArm  // arms SELECTED tracks
+  Arm		Reaper "9"
   Shift+Arm    Reaper "40490"  // arms      ALL tracks
   Alt+Arm      Reaper "40491"  // disarms   ALL tracks
   SoloClear    Reaper "40340"  // unsolo    ALL tracks
