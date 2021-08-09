@@ -8,11 +8,13 @@ Zone "Channel"
   Solo|          TrackSolo
   Mute|          TrackMute
   Fader|         TrackVolume
-  Shift+Fader|   TrackPan "0"
-  Alt+Fader|     TrackPanWidth "1"
+  /Shift+Fader|   TrackPan "0"
+  /Alt+Fader|     TrackPanWidth "1"
+  /Hold+Select|  TrackInvertPolarity
 
   Select|        TrackUniqueSelect   { 2 10 2  30 127 30 }
   Shift+Select|  TrackRangeSelect    { 2 10 2  30 127 30 }
   Alt+Select|    TrackSelect         { 2 10 2  30 127 30 }
+  Control+Select| TrackInvertPolarity
 ZoneEnd
 

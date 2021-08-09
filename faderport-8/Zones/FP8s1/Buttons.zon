@@ -5,14 +5,15 @@ Zone "Buttons"
 
   Track        GoZone "Home"
   Send         MapSelectedTrackSendsToWidgets
-  Plugin       MapFocusedFXToWidgets
+  /Plugin       MapFocusedFXToWidgets
 
   Cycle        Reaper "1068"
 
-  Rewind       Rewind
+  /Rewind       Rewind
   /Rewind       Reaper "1068"
-
-  FastForward  FastForward
+  /FastForward  FastForward
+  Rewind	Reaper "40646"
+  FastForward	Reaper "40647"
 
   Stop         Stop
   Play         Play
@@ -24,7 +25,8 @@ Zone "Buttons"
   Scroll       NoAction
   Bank         NoAction
   Master       NoAction
-  Click        NoAction
+  Click        Reaper 41745
+  Hold+Click   Reaper 41746
   Section      NoAction
   Marker       NoAction
 
@@ -59,7 +61,7 @@ Zone "Buttons"
   SoloClear    Reaper "40340"  // unsolo    ALL tracks
   MuteClear    Reaper "40339"  // unmute    ALL tracks
 
-  Bypass       NoAction  {  0 0 0 127 127 127 }
+  /Bypass       NoAction  {  0 0 0 127 127 127 }
 
   Macro        GoZone "FabulousLastTouchedParameter" {  80 80 0 127 127 127 }
 / Macro        NoAction  {  0 0 0 127 127 127 }

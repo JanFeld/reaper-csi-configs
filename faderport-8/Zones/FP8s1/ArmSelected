@@ -1,0 +1,4 @@
+Zone "ArmSelected"
+    SelectedTrackNavigator
+    Arm    TrackRecordArm
+ZoneEnd

@@ -1,8 +1,10 @@
 Zone "Home"
   IncludedZones
-	"Buttons"
+    "Buttons"
     "Channel"
-	"PanSelected"
+    "PanSelected"
+    "SelectedSend"
+    "ArmSelected"
   IncludedZonesEnd
 ZoneEnd
 
