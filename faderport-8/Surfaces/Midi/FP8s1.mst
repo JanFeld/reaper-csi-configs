@@ -188,7 +188,7 @@ Widget FastForward
   /FB_TwoState 90 5c 7f 90 5c 00
 WidgetEnd
 Widget Stop
-        Press 90 5d 7f
+        Press 90 5d 7f 90 5d 00
   FB_TwoState 90 5d 7f 90 5d 00
 WidgetEnd
 Widget Play
