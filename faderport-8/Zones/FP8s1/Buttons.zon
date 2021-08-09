@@ -18,15 +18,14 @@ Zone "Buttons"
   Stop         Stop
   Play         Play
   Record       Record
-  Hold+Stop    Reaper 40042      // Go to start of project
+  Hold+Stop    Reaper "40042"      // Go to start of project
 
   Channel      NoAction //a lot of stuff could be done with these
   Zoom         NoAction
   Scroll       NoAction
   Bank         NoAction
   Master       NoAction
-  Click        Reaper 41745
-  Hold+Click   Reaper 41746
+  Click        Reaper "40364"
   Section      NoAction
   Marker       NoAction
 
