@@ -181,11 +181,11 @@ Widget Cycle
 WidgetEnd
 Widget Rewind
         Press 90 5b 7f
-  FB_TwoState 90 5b 7f 90 5b 00
+  /FB_TwoState 90 5b 7f 90 5b 00
 WidgetEnd
 Widget FastForward
         Press 90 5c 7f
-  FB_TwoState 90 5c 7f 90 5c 00
+  /FB_TwoState 90 5c 7f 90 5c 00
 WidgetEnd
 Widget Stop
         Press 90 5d 7f
