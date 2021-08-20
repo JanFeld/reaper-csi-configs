@@ -1,0 +1,15 @@
+Zone "VST: UAD Pultec EQP-1A (Universal Audio, Inc.)"
+	FocusedFXNavigator
+	FXParam 0 "Low Freq"
+	FXParam 1 "LF Boost"
+	FXParam 2 "LF Atten"
+	FXParam 3 "High Freq"
+	FXParam 4 "HF Boost"
+	FXParam 5 "HF Q"
+	FXParam 6 "HF Atten Freq"
+	FXParam 7 "HF Atten"
+	FXParam 8 "Enable"
+	FXParam 9 "Output"
+	FXParam 10 "Bypass"
+	FXParam 11 "Wet"
+ZoneEnd

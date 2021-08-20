@@ -1,0 +1,21 @@
+Zone "VST3: Empirical Labs Mike-E Comp (Softube)"
+	FocusedFXNavigator
+	FXParam 0 "Preamp Gain"
+	FXParam 1 "Phase"
+	FXParam 2 "Hi-Pass"
+	FXParam 3 "Drive"
+	FXParam 4 "Comp Mode"
+	FXParam 5 "Ratio"
+	FXParam 6 "Attack"
+	FXParam 7 "Release"
+	FXParam 8 "Mix"
+	FXParam 9 "Out"
+	FXParam 10 "Ext S/C In"
+	FXParam 11 "Ext S/C Gain"
+	FXParam 12 "Bypass"
+	FXParam 13 "Bypass"
+	FXParam 14 "Wet"
+
+	Plugin GoZone "Home"
+
+ZoneEnd

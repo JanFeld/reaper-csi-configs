@@ -1,0 +1,28 @@
+Zone "VST3: TSAR-1R Reverb (Softube)"
+	FocusedFXNavigator
+
+	Fader1 FXParam 0 "Predelay"
+	Fader2 FXParam 1 "Reverb Time"
+	Bypass FXParam 5 "Bypass"
+
+	FPDisplayA1 FXParamNameDisplay 0 "Predelay"
+	FPDisplayB1 FXParamValueDisplay 0
+	FPDisplayC1 ""
+	FPDisplayD1 ""
+
+	FPDisplayA2 FXParamNameDisplay 1 "Time"
+	FPDisplayB2 FXParamValueDisplay 1
+	FPDisplayC2 ""
+	FPDisplayD2 ""
+
+
+
+	/FXParam 2 "Color"
+	/FXParam 3 "Reverb Mix"
+	/FXParam 4 "Output Vol"
+	/FXParam 6 "Bypass"
+	/FXParam 7 "Wet"
+
+	Plugin GoZone "Home"
+
+ZoneEnd

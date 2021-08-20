@@ -1,0 +1,23 @@
+Zone "VST3: Tape (Softube)"
+	FocusedFXNavigator
+	FXParam 0 "Meter"
+	FXParam 1 "Color Amount"
+	FXParam 2 "Color Type"
+	FXParam 3 "Tape Speed"
+	FXParam 4 "Dry/Wet"
+	FXParam 5 "Speed Stability"
+	FXParam 6 "High Freq Trim"
+	FXParam 7 "Crosstalk"
+	FXParam 8 "Input"
+	FXParam 9 "Output"
+	FXParam 10 "Noise"
+	FXParam 11 "Playback"
+	FXParam 12 "View"
+	FXParam 13 "Reserved"
+	FXParam 14 "Bypass"
+	FXParam 15 "Bypass"
+	FXParam 16 "Wet"
+
+	Plugin GoZone "Home"
+
+ZoneEnd

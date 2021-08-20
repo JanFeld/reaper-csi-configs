@@ -1,0 +1,23 @@
+Zone "VST3: bx_townhouse Buss Compressor (Plugin Alliance)"
+	FocusedFXNavigator
+	FXParam 0 "Bank"
+	FXParam 1 "Comp In"
+	FXParam 2 "Key In"
+	FXParam 3 "AutoFade"
+	FXParam 4 "Thresh"
+	FXParam 5 "Ratio"
+	FXParam 6 "Attack"
+	FXParam 7 "Release"
+	FXParam 8 "MakeUp"
+	FXParam 9 "FadeRate"
+	FXParam 10 "Mix"
+	FXParam 11 "SC Filter"
+	FXParam 12 "Virtual Gain"
+	FXParam 13 "Headroom"
+	FXParam 14 "Bypass"
+	FXParam 15 "Bypass"
+	FXParam 16 "Wet"
+
+	Plugin GoZone "Home"
+
+ZoneEnd
