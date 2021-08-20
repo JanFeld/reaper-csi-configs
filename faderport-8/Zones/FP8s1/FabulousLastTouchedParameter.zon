@@ -6,4 +6,5 @@ Zone "FabulousLastTouchedParameter"
   FPDisplayB8   FocusedFXParamNameDisplay
   FPDisplayC8   FixedTextDisplay "Fx"
   Macro         GoZone           "Home" {  80 80 0 127 127 127 }
+
 ZoneEnd

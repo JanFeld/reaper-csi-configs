@@ -1,17 +1,13 @@
-
 Zone "Buttons"
+  SelectedTrackNavigator
   ShiftRight   Shift
   ShiftLeft    Alt
 
   Track        GoZone "Home"
-  Send         MapSelectedTrackSendsToWidgets
-  /Plugin       MapFocusedFXToWidgets
+  Send         MapSelectedTrackSendsToWidgets { 0 0 20  0 0 127 }
 
   Cycle        Reaper "1068"
 
-  /Rewind       Rewind
-  /Rewind       Reaper "1068"
-  /FastForward  FastForward
   Rewind	Reaper "40646"
   FastForward	Reaper "40647"
 
@@ -32,12 +28,12 @@ Zone "Buttons"
   Prev         TrackBank "-8" // for Faderport 8 change these
   Next         TrackBank "8"
 
-  Read         TrackAutoMode "1" { 0 4 0  0 96 0 }
-  Write        TrackAutoMode "3" { 4 0 0  127 0 0 }
-  Trim         TrackAutoMode "0" { 1 3 3  127 127 127 }
-  Touch        TrackAutoMode "2" { 2 3 0  112 112 00 }
-  Latch        TrackAutoMode "4" { 4 0 4  96 0 96 }
-  Off          TrackAutoMode "5" { 0 0 10 0 32 127 }
+  Read         TrackAutoMode 1 { 0 4 0  0 96 0 }
+  Write        TrackAutoMode 3 { 4 0 0  127 0 0 }
+  Trim         TrackAutoMode 0 { 1 3 3  127 127 127 }
+  Touch        TrackAutoMode 2 { 2 3 0  112 112 00 }
+  Latch        TrackAutoMode 4 { 4 0 4  96 0 96 }
+  Off          TrackAutoMode 5 { 0 0 10 0 32 127 }
 
   Shift+Read   GlobalAutoMode "1" { 0 4 0  0 96 0 }
   Shift+Write  GlobalAutoMode "3" { 4 0 0  127 0 0 }
@@ -60,7 +56,8 @@ Zone "Buttons"
   SoloClear    Reaper "40340"  // unsolo    ALL tracks
   MuteClear    Reaper "40339"  // unmute    ALL tracks
 
-  /Bypass       NoAction  {  0 0 0 127 127 127 }
+  /Bypass       NoAction  {  50 50 50 127 127 127 }
+  Bypass       Reaper 40298 [ 0.0 1.0 ] { 20 20 20 10 27 50 }
 
   Macro        GoZone "FabulousLastTouchedParameter" {  80 80 0 127 127 127 }
 / Macro        NoAction  {  0 0 0 127 127 127 }
@@ -69,7 +66,7 @@ Zone "Buttons"
   AudioBtn     NoAction      {  0 0 0 127 127 127 }
   Instrument   NoAction      {  0 0 0 127 127 127 }
   BusBtn       NoAction      {  0 0 0 127 127 127 }
-  VCABtn       ToggleVCAMode { 10 2 2 127 20  20  }  // shows/hides VCA masters
-  AllBtn       NoAction      {  0 0 0 127 127 127 }
+  VCABtn       ToggleVCAMode { 10 2 2 127 20 20 }  // shows/hides VCA masters
+  AllBtn	Reaper 41743 {  0 0 0 30 30 30 }
 
 ZoneEnd

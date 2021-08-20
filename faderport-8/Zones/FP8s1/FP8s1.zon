@@ -1,4 +1,5 @@
 Zone "Home"
+Plugin MapFocusedFXToWidgets
   IncludedZones
     "Buttons"
     "Channel"

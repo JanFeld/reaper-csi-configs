@@ -1,5 +1,6 @@
 Zone "Channel"
   TrackNavigator
+
   FPDisplayA|    TrackNameDisplay
   FPDisplayB|    TrackVolumeDisplay
   FPDisplayC|    TrackPanDisplay
@@ -16,5 +17,6 @@ Zone "Channel"
   Shift+Select|  TrackRangeSelect    { 2 10 2  30 127 30 }
   Alt+Select|    TrackSelect         { 2 10 2  30 127 30 }
   Control+Select| TrackInvertPolarity
+
 ZoneEnd
 

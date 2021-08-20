@@ -43,7 +43,7 @@ Widget AllBtn
 WidgetEnd
 
 
-Widget ShiftRight 
+Widget ShiftRight
   Press 90 06 7f 90 06 00
 WidgetEnd
 
@@ -63,8 +63,8 @@ WidgetEnd
 
 
 Widget Bypass
-                Press 90 03 7f 90 03 00
-  FB_FaderportRGB7Bit 90 03 7f
+	Press 90 03 7f
+  FB_FaderportRGB7BIT 90 03 7f
 WidgetEnd
 Widget Macro
                 Press 90 04 7f 90 04 00
@@ -106,6 +106,9 @@ Widget Off
                 Press 90 4f 7f
   FB_FaderportRGB7Bit 90 4f 7f
 WidgetEnd
+
+
+
 
 / ## Rotaries ##
 Widget RotarySmall
