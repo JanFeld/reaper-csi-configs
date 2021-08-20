@@ -1,0 +1,47 @@
+Zone "VST3: Maag EQ2 (Plugin Alliance)"
+	FocusedFXNavigator
+	Fader1 FXParam 0 "Air Frequency"
+	Fader2 FXParam 2 "Air Gain"
+	Fader3 FXParam 3 "LMF Frequency"
+	Fader4 FXParam 5 "LMF Gain"
+	Fader5 FXParam 6 "LMF Bandwidth"
+	Fader6 FXParam 7 "Input Attenuation"
+
+
+	FPDisplayA1 FXParamNameDisplay 0 "Air Frq"
+	FPDisplayB1 FXParamValueDisplay 0
+	FPDisplayC1 ""
+	FPDisplayD1 ""
+
+	FPDisplayA2 FXParamNameDisplay 2 "Air Gain"
+	FPDisplayB2 FXParamValueDisplay 2
+	FPDisplayC2 ""
+	FPDisplayD2 ""
+
+	FPDisplayA3 FXParamNameDisplay 3 "LMF Freq"
+	FPDisplayB3 FXParamValueDisplay 3
+	FPDisplayC3 ""
+	FPDisplayD3 ""
+
+	FPDisplayA4 FXParamNameDisplay 5 "LMF Gain"
+	FPDisplayB4 FXParamValueDisplay 5
+	FPDisplayC4 ""
+	FPDisplayD4 ""
+
+	FPDisplayA5 FXParamNameDisplay 6 "LMF Q"
+	FPDisplayB5 FXParamValueDisplay 6
+	FPDisplayC5 ""
+	FPDisplayD5 ""
+
+	FPDisplayA6 FXParamNameDisplay 7 "Input Att."
+	FPDisplayB6 FXParamValueDisplay 7
+	FPDisplayC6 ""
+	FPDisplayD6 ""
+
+	/FXParam 1 "Air In"
+	/FXParam 4 "LMF In"
+	/FXParam 9 "Bypass"
+	Bypass FXParam 10 "Bypass" [ 0.0 1.0 ] { 127 50 0 20 90 90 }
+	/FXParam 11 "Wet"
+	/Bypass FXParam 8 "Power"
+ZoneEnd
