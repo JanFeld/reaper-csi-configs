@@ -1,22 +1,55 @@
 Zone "VST3: bx_townhouse Buss Compressor (Plugin Alliance)"
 	FocusedFXNavigator
 	FXParam 0 "Bank"
-	FXParam 1 "Comp In"
+	Bypass FXParam 1 "Comp In"
 	FXParam 2 "Key In"
 	FXParam 3 "AutoFade"
-	FXParam 4 "Thresh"
-	FXParam 5 "Ratio"
-	FXParam 6 "Attack"
-	FXParam 7 "Release"
-	FXParam 8 "MakeUp"
+	Fader1 FXParam 4 "Thresh"
+	Fader2 FXParam 5 "Ratio"
+	Fader3 FXParam 6 "Attack"
+	Fader4 FXParam 7 "Release"
+	Fader5 FXParam 8 "MakeUp"
 	FXParam 9 "FadeRate"
-	FXParam 10 "Mix"
+	Fader6 FXParam 10 "Mix"
 	FXParam 11 "SC Filter"
 	FXParam 12 "Virtual Gain"
 	FXParam 13 "Headroom"
 	FXParam 14 "Bypass"
 	FXParam 15 "Bypass"
 	FXParam 16 "Wet"
+
+
+	FPDisplayA1 FXParamNameDisplay 4 "Thresh"
+	FPDisplayB1 ""
+	FPDisplayC1 FXParamValueDisplay 4
+	FPDisplayD1 ""
+
+	FPDisplayA2 FXParamNameDisplay 5 "Ratio"
+	FPDisplayB2 ""
+	FPDisplayC2 FXParamValueDisplay 5
+	FPDisplayD2 ""
+
+	FPDisplayA3 FXParamNameDisplay 6 "Attack"
+	FPDisplayB3 ""
+	FPDisplayC3 FXParamValueDisplay 6
+	FPDisplayD3 ""
+
+	FPDisplayA4 FXParamNameDisplay 7 "Release"
+	FPDisplayB4 ""
+	FPDisplayC4 FXParamValueDisplay 7
+	FPDisplayD4 ""
+
+	FPDisplayA5 FXParamNameDisplay 8 "Makeup"
+	FPDisplayB5 ""
+	FPDisplayC5 FXParamValueDisplay 8
+	FPDisplayD5 ""
+
+	FPDisplayA6 FXParamNameDisplay 10 "Mix"
+	FPDisplayB6 ""
+	FPDisplayC6 FXParamValueDisplay 10
+	FPDisplayD6 ""
+
+
 
 	Plugin GoZone "Home"
 
