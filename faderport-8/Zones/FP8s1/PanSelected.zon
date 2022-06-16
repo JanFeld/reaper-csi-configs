@@ -1,8 +1,17 @@
+////////////////////////////////////////////////////////////////////////////////
+// Pan selected Track (rotary knob)
+////////////////////////////////////////////////////////////////////////////////
 Zone "PanSelected"
   SelectedTrackNavigator
 
-  RotaryBig       TrackPan "0"
-  RotaryBigPush   TrackPan "0" [ 0.2 ]
+  RotaryBig     TrackPan "0"
+  RotaryBigPush TrackPan "0" [ 0.2 ]
+
+  Rotary	TrackPan "0"
+  RotaryPush	TrackPan "0" [ 0.2 ]
 
 ZoneEnd
+
+
+
 

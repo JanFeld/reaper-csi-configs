@@ -1,0 +1,15 @@
+////////////////////////////////////////////////////////////////////////////////
+// Track Send Slots
+////////////////////////////////////////////////////////////////////////////////
+Zone "TrackSendSlot"
+     TrackSendSlotNavigator
+     FPDisplayA|	TrackNameDisplay
+     FPDisplayC|	TrackSendVolumeDisplay
+     FPDisplayB|	TrackSendNameDisplay
+     Fader|             TrackSendVolume
+     Prev           	SendSlotBank "-1"
+     Next          	SendSlotBank "1"
+ZoneEnd
+
+
+

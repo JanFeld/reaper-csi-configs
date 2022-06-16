@@ -1,3 +1,6 @@
+////////////////////////////////////////////////////////////////////////////////
+// Map last Fader / Rotary Button to last touched FX Parameter
+////////////////////////////////////////////////////////////////////////////////
 Zone "FabulousLastTouchedParameter"
   Fader8        FocusedFXParam
   RotaryBig     FocusedFXParam
@@ -6,5 +9,5 @@ Zone "FabulousLastTouchedParameter"
   FPDisplayB8   FocusedFXParamNameDisplay
   FPDisplayC8   FixedTextDisplay "Fx"
   Macro         GoZone           "Home" {  80 80 0 127 127 127 }
-
 ZoneEnd
+

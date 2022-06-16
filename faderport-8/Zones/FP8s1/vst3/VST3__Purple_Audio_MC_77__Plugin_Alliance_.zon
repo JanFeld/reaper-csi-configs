@@ -1,0 +1,83 @@
+Zone "VST3: Purple Audio MC 77 (Plugin Alliance)"
+	SelectedTrackNavigator
+	Bypass FXParam 0 "Power"
+	FXParam 1 "Monitoring "
+	Fader1 FXParam 2 "Input L"
+	Fader2 FXParam 3 "Output L"
+	Fader3 FXParam 4 "Attack L"
+	Fader4 FXParam 5 "Release L"
+	RotaryBig FXParam 6 "Ratio L"
+	FXParam 7 "Meter Mode L"
+	FXParam 8 "Meter IO L"
+	FXParam 9 "Bypass L"
+	FXParam 10 "Power L"
+	FXParam 11 "IO-Link"
+	FXParam 12 "Input R"
+	FXParam 13 "Output R"
+	FXParam 14 "Attack R"
+	FXParam 15 "Release R"
+	FXParam 16 "Ratio R"
+	FXParam 17 "Meter Mode R"
+	FXParam 18 "Meter IO R"
+	FXParam 19 "Bypass R"
+	FXParam 20 "Power R"
+	FXParam 21 "Insert"
+	FXParam 22 "SCLink"
+	FXParam 23 "Stereo Mode"
+	FXParam 24 "TMT Channel"
+	FXParam 25 "Link"
+	FXParam 26 "M/S"
+	Fader5 FXParam 27 "SC HP Freq "
+	Fader6 FXParam 28 "Monomaker Freq"
+	Fader7 FXParam 29 "Stereowidth"
+	FXParam 30 "Headroom"
+	Fader8 FXParam 31 "Mix"
+	FXParam 32 "Bank"
+	FXParam 33 "Bypass"
+	FXParam 34 "Bypass"
+	FXParam 35 "Wet"
+
+
+	FPDisplayA1 FXParamNameDisplay 2 "Input"
+	FPDisplayB1 ""
+	FPDisplayC1 FXParamValueDisplay 2
+	FPDisplayD1 ""
+
+	FPDisplayA2 FXParamNameDisplay 3 "Output"
+	FPDisplayB2 ""
+	FPDisplayC2 FXParamValueDisplay 3
+	FPDisplayD2 ""
+
+	FPDisplayA3 FXParamNameDisplay 4 "Attack"
+	FPDisplayB3 ""
+	FPDisplayC3 FXParamValueDisplay 4
+	FPDisplayD3 ""
+
+	FPDisplayA4 FXParamNameDisplay 5 "Release"
+	FPDisplayB4 ""
+	FPDisplayC4 FXParamValueDisplay 5
+	FPDisplayD4 ""
+
+	FPDisplayA5 FXParamNameDisplay 27 "SC HP"
+	FPDisplayB5 ""
+	FPDisplayC5 FXParamValueDisplay 27
+	FPDisplayD5 ""
+
+	FPDisplayA6 FXParamNameDisplay 28 "Mono"
+	FPDisplayB6 ""
+	FPDisplayC6 FXParamValueDisplay 28
+	FPDisplayD6 ""
+
+	FPDisplayA7 FXParamNameDisplay 29 "St. Wi"
+	FPDisplayB7 ""
+	FPDisplayC7 FXParamValueDisplay 29
+	FPDisplayD7 ""
+
+	FPDisplayA8 FXParamNameDisplay 31 "Mix"
+	FPDisplayB8 ""
+	FPDisplayC8 FXParamValueDisplay 31
+	FPDisplayD8 ""
+
+
+
+ZoneEnd

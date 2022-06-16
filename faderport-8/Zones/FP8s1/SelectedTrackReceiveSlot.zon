@@ -1,0 +1,19 @@
+////////////////////////////////////////////////////////////////////////////////
+// Selected Track Receives
+////////////////////////////////////////////////////////////////////////////////
+Zone "SelectedTrackReceive"
+     SelectedTrackReceiveNavigator
+     FPDisplayA|
+     FPDisplayB|                      	TrackReceiveNameDisplay
+     FPDisplayC|                      	TrackReceiveVolumeDisplay
+     Mute|                            	TrackReceiveMute
+     Fader|                           	TrackReceiveVolume
+     Rotary|                          	TrackReceivePan
+     /RotaryPush                      	NoAction
+     Prev           			ReceiveSlotBank "-1"
+     Next          			ReceiveSlotBank "1"
+ZoneEnd
+
+
+
+

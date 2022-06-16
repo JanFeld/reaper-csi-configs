@@ -44,7 +44,7 @@ Zone "VST3: bx_townhouse Buss Compressor (Plugin Alliance)"
 	FPDisplayC5 FXParamValueDisplay 8
 	FPDisplayD5 ""
 
-	FPDisplayA6 FXParamNameDisplay 10 "Mix"
+	FPDisplayA6 FXParamNameDisplay 10 "Makeup"
 	FPDisplayB6 ""
 	FPDisplayC6 FXParamValueDisplay 10
 	FPDisplayD6 ""

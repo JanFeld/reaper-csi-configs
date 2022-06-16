@@ -1,0 +1,15 @@
+////////////////////////////////////////////////////////////////////////////////
+// Selected Track Sends
+////////////////////////////////////////////////////////////////////////////////
+Zone "SelectedTrackSend"
+    SelectedTrackSendSlotNavigator
+    DisplayUpper|                      TrackSendNameDisplay
+    DisplayLower|                      TrackSendVolumeDisplay
+    FPDisplayA|             		FixedTextDisplay "Send"
+    FPDisplayB|             		TrackSendVolumeDisplay
+    FPDisplayC|             		TrackSendNameDisplay  // only displays 4-6 characters
+    Mute|				TrackSendMute
+    Fader|                             	TrackSendVolume
+    Rotary|                            	TrackSendPan
+    RotaryPush|                        	NoAction
+ZoneEnd

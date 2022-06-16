@@ -17,7 +17,7 @@ Widget Send
 WidgetEnd
 Widget Pan
         Press 90 2a 7f
-  FB_TwoState 90 2a 7f 90 2a 00
+	FB_TwoState 90 2a 7f 90 2a 00
 WidgetEnd
 
 / buttons can be any colour down here

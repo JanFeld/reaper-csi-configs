@@ -4,10 +4,9 @@ Plugin MapFocusedFXToWidgets
     "Buttons"
     "Channel"
     "PanSelected"
-    "SelectedSend"
-    "ArmSelected"
+    /"SelectedTrackSend"
+    /"SelectedTrackReceive"
   IncludedZonesEnd
 ZoneEnd
-
 
 
