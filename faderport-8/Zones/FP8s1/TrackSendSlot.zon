@@ -7,8 +7,10 @@ Zone "TrackSendSlot"
      FPDisplayC|	TrackSendVolumeDisplay
      FPDisplayB|	TrackSendNameDisplay
      Fader|             TrackSendVolume
-     Prev           	SendSlotBank "-1"
-     Next          	SendSlotBank "1"
+     Prev           	TrackBank "-1"
+     Next          	TrackBank "1"
+     Shift+Prev         SendSlotBank "-1"
+     Shift+Next         SendSlotBank "1"
 ZoneEnd
 
 
