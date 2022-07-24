@@ -1,0 +1,17 @@
+Zone "VST: Tube-Tech Equalizers mk II (Softube)-1" "ME1B"
+	FocusedFXNavigator
+
+	Prev GoSubZone "VST: Tube-Tech Equalizers mk II (Softube)"
+
+	Fader1 FXParam 10 
+	Fader2 FXParam 11 
+	Fader3 FXParam 12 
+	Fader4 FXParam 13 
+	Fader5 FXParam 14 
+	Fader6 FXParam 15 
+	Fader7 FXParam 16 
+	Select1 FXParam 17
+
+
+
+ZoneEnd
