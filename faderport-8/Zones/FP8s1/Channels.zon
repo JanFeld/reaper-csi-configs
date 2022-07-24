@@ -5,21 +5,23 @@ Zone "Channel"
   TrackNavigator
 
   FPDisplayA|    TrackNameDisplay
-  FPDisplayB|    TrackVolumeDisplay
+  FPDisplayB|    TrackPanWidthDisplay
   FPDisplayC|    TrackPanDisplay
+  /FPDisplayD|    TrackOutputMeterMaxPeakLR // this can do levels
   FPDisplayD|    TrackOutputMeterAverageLR // this can do levels
+  ValueBar|    TrackOutputMeterAverageLR // this can do levels
 
   Solo|          TrackSolo
   Mute|          TrackMute
   Fader|         TrackVolume
   Shift+Fader|   TrackPan "0"
   Alt+Fader|     TrackPanWidth "1"
-  /Alt+Select|  TrackInvertPolarity
 
   Select|        TrackUniqueSelect   { 2 10 2  30 127 30 }
   Shift+Select|  TrackRangeSelect    { 2 10 2  30 127 30 }
-  /Alt+Select|    TrackSelect         { 2 10 2  30 127 30 }
+  Alt+Select|    TrackSelect         { 2 10 2  30 127 30 }
   Control+Select| TrackInvertPolarity
+  Option+Select| TrackRecordArm { 20 0 0 255 0 0 }
 
 ZoneEnd
 

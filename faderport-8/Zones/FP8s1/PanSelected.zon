@@ -4,11 +4,8 @@
 Zone "PanSelected"
   SelectedTrackNavigator
 
-  RotaryBig     TrackPan "0"
-  RotaryBigPush TrackPan "0" [ 0.2 ]
-
-  Rotary	TrackPan "0"
-  RotaryPush	TrackPan "0" [ 0.2 ]
+  RotarySmall	TrackPan "0"
+  RotarySmallPush	TrackPan "0" [ 0.5 ]
 
 ZoneEnd
 

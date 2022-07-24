@@ -3,14 +3,18 @@
 ////////////////////////////////////////////////////////////////////////////////
 Zone "Buttons"
   SelectedTrackNavigator
-  ShiftRight   Shift
-  ShiftLeft    Alt
+  ShiftRight	Shift
+  ShiftLeft	Alt
+  Macro		Option { 0 4 0 0 96 0 } // Option
+  Link         Control   { 0 4 0 0 97 0 } // CONTROL modifier, above the left shift button
+  
+  /Macro        GoZone "FabulousLastTouchedParameter" {  80 80 0 127 127 127 }
 
   Track        GoZone "Home"
   Shift+Track  Reaper "40296"
   Send         MapSelectedTrackSendsToWidgets { 0 0 20  0 0 127 }
   Pan          MapTrackSendsSlotToWidgets { 0 0 20  0 0 127 }
-  BusBtn       MapSelectedTrackReceivesToWidgets { 0 0 20 127 127 127 }
+  BusBtn       MapSelectedTrackReceivesToWidgets { 0 0 4 0 0 96 }
 
   Cycle        Reaper "1068"
 
@@ -26,13 +30,15 @@ Zone "Buttons"
   Zoom         NoAction
   Scroll       NoAction
   Bank         NoAction
-  Master       Reaper "40917" { 1 3 3  127 127 127 }
+  Master       Reaper "40917" //{ 1 3 3  127 127 127 }
   Click        Reaper "40364"
   Section      NoAction
   Marker       Reaper "40157"
 
   Prev         TrackBank "-8" // for Faderport 8 change these
   Next         TrackBank "8"
+  Shift+Prev         TrackBank "-1" // for Faderport 8 change these
+  Shift+Next         TrackBank "1"
 
   Read         TrackAutoMode 1 { 0 4 0  0 96 0 }
   Write        TrackAutoMode 3 { 4 0 0  127 0 0 }
@@ -56,21 +62,19 @@ Zone "Buttons"
   Alt+Latch    Reaper "40266" { 4 0 4  96 0 96 }
   Alt+Off      Reaper "42024" { 0 0 10 0 32 127 }
 
-  Arm		Reaper "9"
+  Arm		Reaper "9" { 0 0 0 127 0 0 }
   Shift+Arm    Reaper "40490"  // arms      ALL tracks
   Alt+Arm      Reaper "40491"  // disarms   ALL tracks
   SoloClear    Reaper "40340"  // unsolo    ALL tracks
   MuteClear    Reaper "40339"  // unmute    ALL tracks
 
   /Bypass       NoAction  {  50 50 50 127 127 127 }
-  Bypass       Reaper 40298 [ 0.0 1.0 ] { 20 20 20 10 27 50 }
+  /Bypass       Reaper "40298" [0.0 1.0] { 0 96 0 0 0 0 }
+  Bypass	Reaper "40298" [0.0 1.0] { 0 96 0 0 0 0 }
 
-  Macro        GoZone "FabulousLastTouchedParameter" {  80 80 0 127 127 127 }
-/ Macro        NoAction  {  0 0 0 127 127 127 }
-  Link         Control   { 10 2 2 127 127 127 } // CONTROL modifier, above the left shift button
 
-  AudioBtn     NoAction      {  0 0 0 127 127 127 }
-  Instrument   NoAction      {  0 0 0 127 127 127 }
+AudioBtn     NoAction      {  0 0 0 127 127 127 }
+Instrument   NoAction      {  0 0 0 127 127 127 }
   VCABtn       ToggleVCAMode { 10 2 2 127 20 20 }  // shows/hides VCA masters
   AllBtn	Reaper 41743 {  0 0 0 30 30 30 }
 

@@ -31,7 +31,7 @@ Widget Instrument
 WidgetEnd
 Widget BusBtn
                 Press 90 40 7f
-  FB_FaderportRGB7Bit 90 40 7f
+		FB_FaderportRGB7Bit 90 40 7f
 WidgetEnd
 Widget VCABtn
                 Press 90 41 7f
@@ -45,6 +45,7 @@ WidgetEnd
 
 Widget ShiftRight
   Press 90 06 7f 90 06 00
+  FB_TwoState 90 06 7f 90 06 00
 WidgetEnd
 
 
@@ -64,7 +65,7 @@ WidgetEnd
 
 Widget Bypass
 	Press 90 03 7f
-  FB_FaderportRGB7BIT 90 03 7f
+  FB_FaderportRGB7Bit 90 03 7f
 WidgetEnd
 Widget Macro
                 Press 90 04 7f 90 04 00
@@ -77,6 +78,7 @@ WidgetEnd
 
 Widget ShiftLeft
   Press 90 46 7f 90 46 00
+  FB_TwoState 90 46 7f 90 46 00
 WidgetEnd
 
 
@@ -173,7 +175,7 @@ Widget Section
 WidgetEnd
 Widget Marker
         Press 90 3d 7f
-  FB_TwoState 90 3d 7f 90 3d 00
+  /FB_TwoState 90 3d 7f 90 3d 00
 WidgetEnd
 
 
@@ -209,7 +211,7 @@ WidgetEnd
 Widget Fader1
      Fader14Bit e0 7f 7f
   FB_Fader14Bit e0 7f 7f
-          Touch 90 68 7f 90 68 00
+  Touch 90 68 7f 90 68 00
 WidgetEnd
 Widget Fader2
      Fader14Bit e1 7f 7f
@@ -319,7 +321,7 @@ WidgetEnd
 
 
 Widget Select1
-                Press 90 18 7f
+                Press 90 18 7f 90 18 0
   FB_FaderportRGB7Bit 90 18 7f
 WidgetEnd
 Widget Select2
@@ -432,26 +434,94 @@ WidgetEnd
 
 
 Widget FPDisplayD1
-  FB_FP8DisplayLower "0"
+  FB_FaderportValueBar 0
 WidgetEnd
 Widget FPDisplayD2
-  FB_FP8DisplayLower "1"
+  FB_FaderportValueBar 1
 WidgetEnd
 Widget FPDisplayD3
-  FB_FP8DisplayLower "2"
+  FB_FaderportValueBar 2
 WidgetEnd
 Widget FPDisplayD4
-  FB_FP8DisplayLower "3"
+  FB_FaderportValueBar 3
 WidgetEnd
 Widget FPDisplayD5
-  FB_FP8DisplayLower "4"
+  FB_FaderportValueBar 4
 WidgetEnd
 Widget FPDisplayD6
-  FB_FP8DisplayLower "5"
+  FB_FaderportValueBar 5
 WidgetEnd
 Widget FPDisplayD7
-  FB_FP8DisplayLower "6"
+  FB_FaderportValueBar 6
 WidgetEnd
 Widget FPDisplayD8
-  FB_FP8DisplayLower "7"
+  FB_FaderportValueBar 7
+WidgetEnd
+
+Widget DisplayType1
+	FB_FP8DisplayType 0
+WidgetEnd
+
+Widget DisplayType2
+	FB_FP8DisplayType 1
+WidgetEnd
+
+Widget DisplayType3
+	FB_FP8DisplayType 2
+WidgetEnd
+
+Widget DisplayType4
+	FB_FP8DisplayType 3
+WidgetEnd
+
+Widget DisplayType5
+	FB_FP8DisplayType 4
+WidgetEnd
+
+Widget DisplayType6
+	FB_FP8DisplayType 5
+WidgetEnd
+
+Widget DisplayType7
+	FB_FP8DisplayType 6
+WidgetEnd
+
+Widget DisplayType8
+	FB_FP8DisplayType 7
+WidgetEnd
+
+
+// ===========================================
+// VU METER
+// ===========================================
+Widget VUMeter1
+	FB_FPVUMeter 0
+WidgetEnd
+
+Widget VUMeter2
+	FB_FPVUMeter 1
+WidgetEnd
+
+Widget VUMeter3
+	FB_FPVUMeter 2
+WidgetEnd
+
+Widget VUMeter4
+	FB_FPVUMeter 3
+WidgetEnd
+
+Widget VUMeter5
+	FB_FPVUMeter 4
+WidgetEnd
+
+Widget VUMeter6
+	FB_FPVUMeter 5
+WidgetEnd
+
+Widget VUMeter7
+	FB_FPVUMeter 6
+WidgetEnd
+
+Widget VUMeter8
+	FB_FPVUMeter 7
 WidgetEnd

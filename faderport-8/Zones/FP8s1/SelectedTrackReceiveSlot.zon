@@ -3,15 +3,18 @@
 ////////////////////////////////////////////////////////////////////////////////
 Zone "SelectedTrackReceive"
      SelectedTrackReceiveNavigator
-     FPDisplayA|
+     FPDisplayA|			TrackNameDisplay
      FPDisplayB|                      	TrackReceiveNameDisplay
-     FPDisplayC|                      	TrackReceiveVolumeDisplay
+     FPDisplayC|                      	TrackReceivePanDisplay
      Mute|                            	TrackReceiveMute
      Fader|                           	TrackReceiveVolume
      Rotary|                          	TrackReceivePan
      /RotaryPush                      	NoAction
-     Prev           			ReceiveSlotBank "-1"
-     Next          			ReceiveSlotBank "1"
+     Prev           			ReceiveSlotBank "-8"
+     Next          			ReceiveSlotBank "8"
+     Select|				NoAction
+
+     BusBtn 				GoZone "Home" { 0 0 4 0 0 96 }
 ZoneEnd
 
 
