@@ -1,0 +1,17 @@
+Zone "SelectedTrackFXMenu"
+
+	FPDisplayA|	FXMenuNameDisplay
+	FPDisplayB|	FXBypassedDisplay
+	FPDisplayC|	""
+
+	Mute|		ToggleFXBypass
+	Select|		GoFXSlot
+	Select|		Reaper "_S&M_FLOATFX|"          // Floats the FX window, use "_S&M_SHOWFXCHAIN|" insteead if you prefer the FX chain window
+
+	Prev		SelectedTrackFXMenuBank -1
+	Next		SelectedTrackFXMenuBank 1	
+
+	Solo|		NoAction
+	RecordArm|	NoAction
+
+ZoneEnd

@@ -1,0 +1,261 @@
+Zone "VST3: Pro-C 2 (FabFilter)" "Pro-C"
+	FXParam 0 "Style"
+	FXParam 1 "Threshold"
+	FXParam 2 "Ratio"
+	FXParam 3 "Knee"
+	FXParam 4 "Range"
+	FXParam 5 "Attack"
+	FXParam 6 "Release"
+	FXParam 7 "Auto Release"
+	FXParam 8 "Lookahead"
+	FXParam 9 "Hold"
+	FXParam 10 "Wet Gain"
+	FXParam 11 "Wet Pan"
+	FXParam 12 "Dry Gain"
+	FXParam 13 "Dry Pan"
+	FXParam 14 "Auto Gain"
+	FXParam 15 "Side Chain Expert Mode"
+	FXParam 16 "Side Chain Input"
+	FXParam 17 "Side Chain Level"
+	FXParam 18 "Stereo Link"
+	FXParam 19 "Stereo Link Mode"
+	FXParam 20 "Side Chain Low Enabled"
+	FXParam 21 "Side Chain Low Frequency"
+	FXParam 22 "Side Chain Low Slope"
+	FXParam 23 "Side Chain Mid Auto"
+	FXParam 24 "Side Chain Mid Enabled"
+	FXParam 25 "Side Chain Mid Frequency"
+	FXParam 26 "Side Chain Mid Gain"
+	FXParam 27 "Side Chain Mid Q"
+	FXParam 28 "Side Chain Mid Shape"
+	FXParam 29 "Side Chain High Enabled"
+	FXParam 30 "Side Chain High Frequency"
+	FXParam 31 "Side Chain High Slope"
+	FXParam 32 "Audition Side Chain"
+	FXParam 33 "Audition Triggering"
+	FXParam 34 "Mix"
+	FXParam 35 "Input Level"
+	FXParam 36 "Input Pan"
+	FXParam 37 "Output Level"
+	FXParam 38 "Output Pan"
+	FXParam 39 "Bypass"
+	FXParam 40 "Oversampling"
+	FXParam 41 "Lookahead Enabled"
+	FXParam 42 "Midi State"
+	FXParam 43 "Meter Scale"
+	FXParam 44 "Display Enabled"
+	FXParam 45 "Knee Display Enabled"
+	FXParam 46 "Host Bypass"
+	FXParam 47 "Internal"
+	FXParam 48 "Internal"
+	FXParam 49 "MIDI CC"
+	FXParam 50 "Pitch Bend"
+	FXParam 51 "Channel Pressure"
+	FXParam 52 "MIDI CC"
+	FXParam 53 "MIDI CC"
+	FXParam 54 "MIDI CC"
+	FXParam 55 "MIDI CC"
+	FXParam 56 "MIDI CC"
+	FXParam 57 "MIDI CC"
+	FXParam 58 "MIDI CC"
+	FXParam 59 "MIDI CC"
+	FXParam 60 "MIDI CC"
+	FXParam 61 "MIDI CC"
+	FXParam 62 "MIDI CC"
+	FXParam 63 "MIDI CC"
+	FXParam 64 "MIDI CC"
+	FXParam 65 "MIDI CC"
+	FXParam 66 "MIDI CC"
+	FXParam 67 "MIDI CC"
+	FXParam 68 "MIDI CC"
+	FXParam 69 "MIDI CC"
+	FXParam 70 "MIDI CC"
+	FXParam 71 "MIDI CC"
+	FXParam 72 "MIDI CC"
+	FXParam 73 "MIDI CC"
+	FXParam 74 "MIDI CC"
+	FXParam 75 "MIDI CC"
+	FXParam 76 "MIDI CC"
+	FXParam 77 "MIDI CC"
+	FXParam 78 "MIDI CC"
+	FXParam 79 "MIDI CC"
+	FXParam 80 "MIDI CC"
+	FXParam 81 "MIDI CC"
+	FXParam 82 "MIDI CC"
+	FXParam 83 "MIDI CC"
+	FXParam 84 "MIDI CC"
+	FXParam 85 "MIDI CC"
+	FXParam 86 "MIDI CC"
+	FXParam 87 "MIDI CC"
+	FXParam 88 "MIDI CC"
+	FXParam 89 "MIDI CC"
+	FXParam 90 "MIDI CC"
+	FXParam 91 "MIDI CC"
+	FXParam 92 "MIDI CC"
+	FXParam 93 "MIDI CC"
+	FXParam 94 "MIDI CC"
+	FXParam 95 "MIDI CC"
+	FXParam 96 "MIDI CC"
+	FXParam 97 "MIDI CC"
+	FXParam 98 "MIDI CC"
+	FXParam 99 "MIDI CC"
+	FXParam 100 "MIDI CC"
+	FXParam 101 "MIDI CC"
+	FXParam 102 "MIDI CC"
+	FXParam 103 "MIDI CC"
+	FXParam 104 "MIDI CC"
+	FXParam 105 "MIDI CC"
+	FXParam 106 "MIDI CC"
+	FXParam 107 "MIDI CC"
+	FXParam 108 "MIDI CC"
+	FXParam 109 "MIDI CC"
+	FXParam 110 "MIDI CC"
+	FXParam 111 "MIDI CC"
+	FXParam 112 "MIDI CC"
+	FXParam 113 "MIDI CC"
+	FXParam 114 "MIDI CC"
+	FXParam 115 "MIDI CC"
+	FXParam 116 "MIDI CC"
+	FXParam 117 "MIDI CC"
+	FXParam 118 "MIDI CC"
+	FXParam 119 "MIDI CC"
+	FXParam 120 "MIDI CC"
+	FXParam 121 "MIDI CC"
+	FXParam 122 "MIDI CC"
+	FXParam 123 "MIDI CC"
+	FXParam 124 "MIDI CC"
+	FXParam 125 "MIDI CC"
+	FXParam 126 "MIDI CC"
+	FXParam 127 "MIDI CC"
+	FXParam 128 "MIDI CC"
+	FXParam 129 "MIDI CC"
+	FXParam 130 "MIDI CC"
+	FXParam 131 "MIDI CC"
+	FXParam 132 "MIDI CC"
+	FXParam 133 "MIDI CC"
+	FXParam 134 "MIDI CC"
+	FXParam 135 "MIDI CC"
+	FXParam 136 "MIDI CC"
+	FXParam 137 "MIDI CC"
+	FXParam 138 "MIDI CC"
+	FXParam 139 "MIDI CC"
+	FXParam 140 "MIDI CC"
+	FXParam 141 "MIDI CC"
+	FXParam 142 "MIDI CC"
+	FXParam 143 "MIDI CC"
+	FXParam 144 "MIDI CC"
+	FXParam 145 "MIDI CC"
+	FXParam 146 "MIDI CC"
+	FXParam 147 "MIDI CC"
+	FXParam 148 "MIDI CC"
+	FXParam 149 "MIDI CC"
+	FXParam 150 "MIDI CC"
+	FXParam 151 "MIDI CC"
+	FXParam 152 "MIDI CC"
+	FXParam 153 "MIDI CC"
+	FXParam 154 "MIDI CC"
+	FXParam 155 "MIDI CC"
+	FXParam 156 "MIDI CC"
+	FXParam 157 "MIDI CC"
+	FXParam 158 "MIDI CC"
+	FXParam 159 "MIDI CC"
+	FXParam 160 "MIDI CC"
+	FXParam 161 "MIDI CC"
+	FXParam 162 "MIDI CC"
+	FXParam 163 "MIDI CC"
+	FXParam 164 "MIDI CC"
+	FXParam 165 "MIDI CC"
+	FXParam 166 "MIDI CC"
+	FXParam 167 "MIDI CC"
+	FXParam 168 "MIDI CC"
+	FXParam 169 "MIDI CC"
+	FXParam 170 "MIDI CC"
+	FXParam 171 "MIDI CC"
+	FXParam 172 "MIDI CC"
+	FXParam 173 "MIDI CC"
+	FXParam 174 "MIDI CC"
+	FXParam 175 "MIDI CC"
+	FXParam 176 "MIDI CC"
+	FXParam 177 "MIDI CC"
+	FXParam 178 "MIDI CC"
+	FXParam 179 "MIDI CC"
+	FXParam 180 "Bypass"
+	FXParam 181 "Wet"
+	FXParam 182 "Delta"
+
+
+	Fader1 FXParam 1 "Threshold"
+	FPDisplayA1 FXParamNameDisplay 1 "Thresh."
+	FPDisplayB1 FXParamValueDisplay 1
+	FPDisplayC1 FixedTextDisplay "Byp."
+	Select1 FXParam 39 [ 0.0 1.0 ] { 255 255 255 255 0 0 }
+	
+	Fader2 FXParam 2 "Ratio"
+	FPDisplayA2 FXParamNameDisplay 2 "Ratio"
+	FPDisplayB2 FXParamValueDisplay 2
+	FPDisplayC2 ""
+	Select2 NoAction
+
+	Fader3 FXParam 5 "Attack"
+	FPDisplayA3 FXParamNameDisplay 5
+	FPDisplayB3 FXParamValueDisplay 5
+	FPDisplayC3 ""
+	Select3 NoAction
+
+	Fader4 FXParam 6 "Release"
+	FPDisplayA4 FXParamNameDisplay 6
+	FPDisplayB4 FXParamValueDisplay 6
+	FPDisplayC4 FixedTextDisplay "ARel."
+	Select4 FXParam 7 [ 0.0 1.0 ] { 4 4 4 255 255 255 }
+
+	Fader5 FXParam 10 "Wet Gain"
+	FPDisplayA5 FXParamNameDisplay 10 "Wet"
+	FPDisplayB5 FXParamValueDisplay 10 
+	FPDisplayC5 FXParamNameDisplay 14 "AGain."
+	Select5 FXParam 14 [ 0.0 1.0 ] { 4 4 4 255 255 255 }
+
+	Fader6 FXParam 3 "Knee"
+	FPDisplayA6 FXParamNameDisplay 3 "Knee"
+	FPDisplayB6 FXParamValueDisplay 3
+	FPDisplayC6 ""
+	Select6 NoAction
+	
+
+	FPDisplayA7 ""
+	FPDisplayB7 ""
+	FPDisplayC7 ""
+	Select7 NoAction
+
+	FPDisplayA8 ""
+	FPDisplayB8 ""
+	FPDisplayC8 ""
+	Select8 NoAction
+
+	////////////////////////////////////////////////////////////////////////////////	
+	// Mute Buttons
+	////////////////////////////////////////////////////////////////////////////////	
+
+	Mute1 NoAction
+	Mute2 NoAction
+	Mute3 NoAction
+	Mute4 NoAction
+	Mute5 NoAction
+	Mute6 NoAction
+	Mute7 NoAction
+	Mute8 NoAction
+
+ 
+	////////////////////////////////////////////////////////////////////////////////	
+	// Solo Buttons
+	////////////////////////////////////////////////////////////////////////////////	
+
+	Solo1 NoAction
+	Solo2 NoAction
+	Solo3 NoAction
+	Solo4 NoAction
+	Solo5 NoAction
+	Solo6 NoAction
+	Solo7 NoAction
+	Solo8 NoAction
+
+ZoneEnd

@@ -1,11 +1,11 @@
 Zone "VST3: Tube-Tech Equalizers mk II (Softube)" "PE1C"
-	FocusedFXNavigator
+	/FocusedFXNavigator
 
 	SubZones
-		"VST: Tube-Tech Equalizers mk II (Softube)-1"
+		"VST: Tube-Tech Equalizers mk II (Softube)-1" "ME1B"
 	SubZonesEnd
 
-	Next GoSubZone "VST: Tube-Tech Equalizers mk II (Softube)-1"
+	Next GoSubZone "VST: Tube-Tech Equalizers mk II (Softube)-1" "ME1B"
 
 	FXParam 0 "PE1C Low Boost"
 	FXParam 1 "PE1C Low Atten"
@@ -25,9 +25,6 @@ Zone "VST3: Tube-Tech Equalizers mk II (Softube)" "PE1C"
 	FXParam 15 "ME1B High Peak"
 	FXParam 16 "ME1B Output Gain"
 	FXParam 17 "ME1B In"
-	FXParam 18 "Bypass"
-	FXParam 19 "Wet"
-	FXParam 20 "Delta"
 	FXParam 18 "Bypass"
 	FXParam 19 "Wet"
 	FXParam 20 "Delta"

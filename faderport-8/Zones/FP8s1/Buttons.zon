@@ -2,19 +2,19 @@
 // Buttons
 ////////////////////////////////////////////////////////////////////////////////
 Zone "Buttons"
-  SelectedTrackNavigator
   ShiftRight	Shift
   ShiftLeft	Alt
   Macro		Option { 0 4 0 0 96 0 } // Option
   Link         Control   { 0 4 0 0 97 0 } // CONTROL modifier, above the left shift button
   
-  /Macro        GoZone "FabulousLastTouchedParameter" {  80 80 0 127 127 127 }
-
-  Track        GoZone "Home"
+  Track        GoHome
   Shift+Track  Reaper "40296"
-  Send         MapSelectedTrackSendsToWidgets { 0 0 20  0 0 127 }
-  Pan          MapTrackSendsSlotToWidgets { 0 0 20  0 0 127 }
-  BusBtn       MapSelectedTrackReceivesToWidgets { 0 0 4 0 0 96 }
+  Shift+Send		GoSelectedTrackSend
+  Send	GoTrackSend
+  BusBtn	GoSelectedTrackReceive
+  Pan		Flip
+  Plugin 	GoSelectedTrackFXMenu
+
 
   Cycle        Reaper "1068"
 

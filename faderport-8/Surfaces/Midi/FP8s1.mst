@@ -8,7 +8,7 @@ Widget Track
   FB_TwoState 90 28 7f 90 28 00
 WidgetEnd
 Widget Plugin
-        Press 90 2b 7f
+        Press 90 2b 7f 90 2b 00
   FB_TwoState 90 2b 7f 90 2b 00
 WidgetEnd
 Widget Send
@@ -16,7 +16,7 @@ Widget Send
   FB_TwoState 90 29 7f 90 29 00
 WidgetEnd
 Widget Pan
-        Press 90 2a 7f
+        Press 90 2a 7f 90 2a 00
 	FB_TwoState 90 2a 7f 90 2a 00
 WidgetEnd
 
@@ -30,8 +30,8 @@ Widget Instrument
   FB_FaderportRGB7Bit 90 3f 7f
 WidgetEnd
 Widget BusBtn
-                Press 90 40 7f
-		FB_FaderportRGB7Bit 90 40 7f
+	Press 90 40 7f
+	FB_FaderportRGB7Bit 90 40 7f
 WidgetEnd
 Widget VCABtn
                 Press 90 41 7f

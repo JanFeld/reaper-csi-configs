@@ -1,20 +1,17 @@
 ////////////////////////////////////////////////////////////////////////////////
 // Track Send Slots
 ////////////////////////////////////////////////////////////////////////////////
-Zone "TrackSendSlot"
-     TrackSendSlotNavigator
+Zone "TrackSend"
      FPDisplayA|	TrackNameDisplay
      FPDisplayC|	TrackSendVolumeDisplay
      FPDisplayB|	TrackSendNameDisplay
      Fader|             TrackSendVolume
      Select|		NoAction
 
-     Prev           	TrackBank "-1"
-     Next          	TrackBank "1"
-     Shift+Prev         SendSlotBank "-1"
-     Shift+Next         SendSlotBank "1"
-
-     Pan		GoZone "Home"
+     Prev         TrackSendBank "-1"
+     Next         TrackSendBank "1"
+     Shift+Prev           	TrackBank "-1"
+     Shift+Next          	TrackBank "1"
 ZoneEnd
 
 

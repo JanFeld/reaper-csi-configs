@@ -2,17 +2,16 @@
 // Selected Track Sends
 ////////////////////////////////////////////////////////////////////////////////
 Zone "SelectedTrackSend"
-    SelectedTrackSendSlotNavigator
     DisplayUpper|                      TrackSendNameDisplay
     DisplayLower|                      TrackSendVolumeDisplay
-    FPDisplayA|             		FixedTextDisplay "Send"
+    FPDisplayA|             		TrackSendNameDisplay  // only displays 4-6 characters
     FPDisplayB|             		TrackSendVolumeDisplay
-    FPDisplayC|             		TrackSendNameDisplay  // only displays 4-6 characters
+    FPDisplayC|             		FixedTextDisplay "Send"
     Mute|				TrackSendMute
     Fader|                             	TrackSendVolume
     Rotary|                            	TrackSendPan
     RotaryPush|                        	NoAction
     Select|		NoAction
 
-    Send				GoZone "Home" { 0 0 5 0 0 127 }
+    Send				GoHome { 0 0 5 0 0 127 }
 ZoneEnd

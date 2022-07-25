@@ -1,10 +1,18 @@
 Zone "Home"
-Plugin MapFocusedFXToWidgets
-  IncludedZones
-    "Buttons"
-    "Channel"
-    "PanSelected"
-  IncludedZonesEnd
+	IncludedZones
+		"Buttons"
+		"Track"
+		"SelectedTrack"
+		/"PanSelected"
+	IncludedZonesEnd
+	AssociatedZones
+		"SelectedTrackFXMenu"
+		"SelectedTrackSend"
+		"SelectedTrackReceive"
+		"TrackFXMenu"
+		"TrackSend"
+		"TrackReceive"
+	AssociatedZonesEnd
 ZoneEnd
 
 

@@ -50,6 +50,14 @@ Zone "VST3: bx_townhouse Buss Compressor (Plugin Alliance)"
 	FPDisplayD6 ""
 
 
+	FPDisplayA7 ""
+	FPDisplayB7 ""
+	FPDisplayC7 ""
+
+	FPDisplayA8 ""
+	FPDisplayB8 ""
+	FPDisplayC8 ""
+
 
 	Plugin GoZone "Home"
 
