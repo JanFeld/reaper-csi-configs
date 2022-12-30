@@ -6,7 +6,7 @@ Zone "Buttons"
   ShiftLeft	Alt
   Macro		Option { 0 4 0 0 96 0 } // Option
   Link         Control   { 0 4 0 0 97 0 } // CONTROL modifier, above the left shift button
-  
+
   Track        GoHome
   Shift+Track  Reaper "40296"
   Shift+Send		GoSelectedTrackSend
@@ -73,8 +73,8 @@ Zone "Buttons"
   Bypass	Reaper "40298" [0.0 1.0] { 0 96 0 0 0 0 }
 
 
-AudioBtn     NoAction      {  0 0 0 127 127 127 }
-Instrument   NoAction      {  0 0 0 127 127 127 }
+  AudioBtn     NoAction      {  0 0 0 127 127 127 }
+  Instrument   NoAction      {  0 0 0 127 127 127 }
   VCABtn       ToggleVCAMode { 10 2 2 127 20 20 }  // shows/hides VCA masters
   AllBtn	Reaper 41743 {  0 0 0 30 30 30 }
 
